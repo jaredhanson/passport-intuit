@@ -1,0 +1,30 @@
+{
+  "name": "passport-intuit",
+  "version": "0.1.0",
+  "description": "Intuit (OpenID) authentication strategy for Passport.",
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-intuit.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-intuit/issues"
+  },
+  "main": "./lib/passport-intuit",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-openid": "~0.2.1"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.6.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "keywords": ["passport", "intuit", "auth", "authn", "authentication", "identity"]
+}

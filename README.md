@@ -66,6 +66,7 @@ For a complete, working example, refer to the [signon example](https://github.co
 
 [![Build Status](https://secure.travis-ci.org/jaredhanson/passport-intuit.png)](http://travis-ci.org/jaredhanson/passport-intuit)
 
+
 ## Credits
 
   - [Jared Hanson](http://github.com/jaredhanson)
